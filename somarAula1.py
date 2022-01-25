@@ -1,3 +1,6 @@
+from re import X
+
+
 def somar(num):
     i = 0
     x = 0
@@ -5,7 +8,7 @@ def somar(num):
         i += 1
         x += i
 
-    print(x)
+    return x
 
 
-somar(int(input('Digite um numero')))
+print(somar(int(input('Digite um numero'))))
